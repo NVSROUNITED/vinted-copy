@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>VintiCopy — Explorer</title>
+  <link rel="icon" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html" aria-label="Accueil">
+      <img src="assets/images/logo.svg" alt="VintiCopy logo"/>
+    </a>
+    <form class="search" role="search" action="listing.html">
+      <input type="text" name="q" placeholder="Rechercher des articles, des marques…"/>
+    </form>
+    <nav class="nav">
+      <a class="btn ghost" href="listing.html">Explorer</a>
+      <a class="btn outline" href="sell.html">Vendre</a>
+      <a class="btn" href="profile.html">Se connecter</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <nav class="breadcrumb">
+      <a href="index.html">Accueil</a> › <span>Explorer</span>
+    </nav>
+    <div class="section" style="display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap">
+      <aside style="flex:1;min-width:240px">
+        <div class="card" style="padding:14px">
+          <h3 style="margin:0 0 10px">Filtres</h3>
+          <div class="form">
+            <label>Catégorie</label>
+            <select class="input"><option>Toutes</option><option>Femme</option><option>Homme</option><option>Enfant</option></select>
+            <label>Taille</label>
+            <select class="input"><option>Toutes</option><option>XS</option><option>S</option><option>M</option><option>L</option></select>
+            <label>État</label>
+            <select class="input"><option>Très bon</option><option>Bon</option><option>Comme neuf</option></select>
+            <label>Prix max (€)</label>
+            <input class="input" type="number" placeholder="Ex: 40"/>
+            <a class="btn block" href="#">Appliquer</a>
+          </div>
+        </div>
+      </aside>
+      <section style="flex:3;min-width:300px">
+        <h2>Résultats</h2>
+        <div class="grid">
+          
+          <a class="card" href="product.html?id=1">
+            <div class="cover"><img src="assets/images/prod_01.jpg" alt="Robe florale"/></div>
+            <div class="content">
+              <div class="meta"><span>Robe florale</span><span class="price">13 €</span></div>
+              <div class="meta"><span>Mode Femme</span><span>Très bon état</span></div>
+            </div>
+          </a>
+          <a class="card" href="product.html?id=2">
+            <div class="cover"><img src="assets/images/prod_02.jpg" alt="Sneakers blanches"/></div>
+            <div class="content">
+              <div class="meta"><span>Sneakers blanches</span><span class="price">16 €</span></div>
+              <div class="meta"><span>Chaussures</span><span>Très bon état</span></div>
+            </div>
+          </a>
+          <a class="card" href="product.html?id=3">
+            <div class="cover"><img src="assets/images/prod_03.jpg" alt="Veste en jean"/></div>
+            <div class="content">
+              <div class="meta"><span>Veste en jean</span><span class="price">19 €</span></div>
+              <div class="meta"><span>Vestes</span><span>Très bon état</span></div>
+            </div>
+          </a>
+          <a class="card" href="product.html?id=4">
+            <div class="cover"><img src="assets/images/prod_04.jpg" alt="Sac à dos"/></div>
+            <div class="content">
+              <div class="meta"><span>Sac à dos</span><span class="price">22 €</span></div>
+              <div class="meta"><span>Accessoires</span><span>Très bon état</span></div>
+            </div>
+          </a>
+          <a class="card" href="product.html?id=5">
+            <div class="cover"><img src="assets/images/prod_05.jpg" alt="T-Shirt rétro"/></div>
+            <div class="content">
+              <div class="meta"><span>T-Shirt rétro</span><span class="price">25 €</span></div>
+              <div class="meta"><span>Homme</span><span>Très bon état</span></div>
+            </div>
+          </a>
+          <a class="card" href="product.html?id=6">
+            <div class="cover"><img src="assets/images/prod_06.jpg" alt="Montre acier"/></div>
+            <div class="content">
+              <div class="meta"><span>Montre acier</span><span class="price">28 €</span></div>
+              <div class="meta"><span>Bijoux</span><span>Très bon état</span></div>
+            </div>
+          </a>
+          <a class="card" href="product.html?id=7">
+            <div class="cover"><img src="assets/images/prod_07.jpg" alt="Jean slim"/></div>
+            <div class="content">
+              <div class="meta"><span>Jean slim</span><span class="price">31 €</span></div>
+              <div class="meta"><span>Pantalons</span><span>Très bon état</span></div>
+            </div>
+          </a>
+          <a class="card" href="product.html?id=8">
+            <div class="cover"><img src="assets/images/prod_08.jpg" alt="Pull oversize"/></div>
+            <div class="content">
+              <div class="meta"><span>Pull oversize</span><span class="price">34 €</span></div>
+              <div class="meta"><span>Hiver</span><span>Très bon état</span></div>
+            </div>
+          </a>
+          <a class="card" href="product.html?id=9">
+            <div class="cover"><img src="assets/images/prod_09.jpg" alt="Casquette"/></div>
+            <div class="content">
+              <div class="meta"><span>Casquette</span><span class="price">37 €</span></div>
+              <div class="meta"><span>Accessoires</span><span>Très bon état</span></div>
+            </div>
+          </a>
+          <a class="card" href="product.html?id=10">
+            <div class="cover"><img src="assets/images/prod_10.jpg" alt="Baskets running"/></div>
+            <div class="content">
+              <div class="meta"><span>Baskets running</span><span class="price">40 €</span></div>
+              <div class="meta"><span>Sport</span><span>Très bon état</span></div>
+            </div>
+          </a>
+          <a class="card" href="product.html?id=11">
+            <div class="cover"><img src="assets/images/prod_11.jpg" alt="Manteau laine"/></div>
+            <div class="content">
+              <div class="meta"><span>Manteau laine</span><span class="price">43 €</span></div>
+              <div class="meta"><span>Hiver</span><span>Très bon état</span></div>
+            </div>
+          </a>
+          <a class="card" href="product.html?id=12">
+            <div class="cover"><img src="assets/images/prod_12.jpg" alt="Sac banane"/></div>
+            <div class="content">
+              <div class="meta"><span>Sac banane</span><span class="price">46 €</span></div>
+              <div class="meta"><span>Street</span><span>Très bon état</span></div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <h3>VintiCopy</h3>
+        <p>Site statique de démonstration (HTML/CSS uniquement).</p>
+      </div>
+      <div>
+        <h4>Découvrir</h4>
+        <ul>
+          <li><a href="listing.html">Catégories</a></li>
+          <li><a href="sell.html">Vendre un article</a></li>
+          <li><a href="profile.html">Mon profil</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Légal</h4>
+        <ul>
+          <li>Mentions légales</li>
+          <li>Confidentialité</li>
+          <li>CGU</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Suivez-nous</h4>
+        <p>Instagram • TikTok • X</p>
+      </div>
+    </div>
+    <p style="margin-top:18px">© 2025 VintiCopy – Démo non officielle.</p>
+  </div>
+</footer>
+
+</body>
+</html>

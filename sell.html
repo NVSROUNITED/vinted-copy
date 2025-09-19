@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>VintiCopy — Vendre</title>
+  <link rel="icon" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html" aria-label="Accueil">
+      <img src="assets/images/logo.svg" alt="VintiCopy logo"/>
+    </a>
+    <form class="search" role="search" action="listing.html">
+      <input type="text" name="q" placeholder="Rechercher des articles, des marques…"/>
+    </form>
+    <nav class="nav">
+      <a class="btn ghost" href="listing.html">Explorer</a>
+      <a class="btn outline" href="sell.html">Vendre</a>
+      <a class="btn" href="profile.html">Se connecter</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <nav class="breadcrumb"><a href="index.html">Accueil</a> › <span>Vendre</span></nav>
+    <h1>Mettre un article en vente</h1>
+    <div class="card" style="padding:14px">
+      <form class="form">
+        <label>Photos (démo)</label>
+        <input class="input" type="file" multiple>
+        <label>Titre</label>
+        <input class="input" type="text" placeholder="Ex: Robe courte Zara">
+        <label>Description</label>
+        <textarea class="input" rows="5" placeholder="Décrivez l'article, l'état, les mesures…"></textarea>
+        <label>Prix (€)</label>
+        <input class="input" type="number" placeholder="Ex: 25">
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn" href="listing.html">Publier (démo)</a>
+          <a class="btn outline" href="index.html">Annuler</a>
+        </div>
+      </form>
+    </div>
+    <p style="color:var(--muted);margin-top:10px">Cette page est une maquette statique (aucune donnée n'est réellement envoyée).</p>
+  </main>
+  <footer class="footer">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <h3>VintiCopy</h3>
+        <p>Site statique de démonstration (HTML/CSS uniquement).</p>
+      </div>
+      <div>
+        <h4>Découvrir</h4>
+        <ul>
+          <li><a href="listing.html">Catégories</a></li>
+          <li><a href="sell.html">Vendre un article</a></li>
+          <li><a href="profile.html">Mon profil</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Légal</h4>
+        <ul>
+          <li>Mentions légales</li>
+          <li>Confidentialité</li>
+          <li>CGU</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Suivez-nous</h4>
+        <p>Instagram • TikTok • X</p>
+      </div>
+    </div>
+    <p style="margin-top:18px">© 2025 VintiCopy – Démo non officielle.</p>
+  </div>
+</footer>
+
+</body>
+</html>
